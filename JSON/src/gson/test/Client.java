@@ -35,6 +35,17 @@ public class Client {
 		String jsonStr1 = gson.toJson(personList);
 		System.out.println(jsonStr1);
 		
+		String jsonArrayStr = "{\"persons\":[{\"name\":\"张三\",\"age\":20},{\"name\":\"李四\",\"age\":22}]}";
+		PersonList personList1 = gson.fromJson(jsonArrayStr, PersonList.class);
+		
+		List<Person> personsfromJson = personList1.getPersons();
+		
+		for(Person p12:personsfromJson){
+			System.out.println(p12.getName());
+			System.out.println(p12.getAge());
+		}
+		
+		
 		
 		
 		
