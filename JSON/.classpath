@@ -4,6 +4,10 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="lib/gson-2.2.4-javadoc.jar"/>
 	<classpathentry kind="lib" path="lib/gson-2.2.4-sources.jar"/>
-	<classpathentry kind="lib" path="lib/gson-2.2.4.jar"/>
+	<classpathentry kind="lib" path="lib/gson-2.2.4.jar" sourcepath="lib/gson-2.2.4-sources.jar"/>
+	<classpathentry kind="lib" path="lib/fastjson-1.2.2-sources.jar"/>
+	<classpathentry kind="lib" path="lib/fastjson-1.2.2.jar"/>
+	<classpathentry kind="lib" path="lib/fastjson-1.2.2.zip"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
